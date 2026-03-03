@@ -1,0 +1,27 @@
+Source: network-scanner
+Section: net
+Priority: optional
+Maintainer: 克亮 <kel@example.com>
+Homepage: https://github.com/tonglingcn/network-scanner
+Build-Depends: debhelper-compat (= 13),
+               cmake,
+               qt6-base-dev,
+               qt6-base-dev-tools,
+               g++,
+               make
+
+Package: network-scanner
+Architecture: any
+License: Expat
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Network Scanner Tool
+ 局域网 IP 地址扫描工具，可快速检测局域网内 IP 地址的使用情况，并获取详细的设备信息。
+ .
+ - **快速扫描**: 支持快速扫描整个网段 (默认 1-254)
+ - **自定义范围**: 可自定义扫描 IP 范围
+ - **多线程扫描**: 使用线程池并发扫描，性能优异
+ - **实时进度**: 实时显示扫描进度和统计信息
+ - **状态显示**: 直观显示 IP 空闲/占用状态，带颜色标识
+ - **响应时间**: 显示已占用 IP 的响应时间
+ - **结果导出**: 支持导出扫描结果为 CSV 文件
+ - **网络接口自动检测**: 自动识别本地网络接口和网段配置

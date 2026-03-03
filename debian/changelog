@@ -1,0 +1,10 @@
+network-scanner (2.0-1) unstable; urgency=medium
+
+  * Initial release
+  * Fast network scanning of local devices
+  * MAC address detection and vendor identification
+  * Response time measurement
+  * Export results to CSV
+  * Multi-threaded scanning support
+
+ -- 克亮 <kel@example.com>  Mon, 03 Mar 2026 18:00:00 +0800

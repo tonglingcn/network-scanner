@@ -1,0 +1,41 @@
+# Build directories
+build/
+build-*/
+
+# Debian build artifacts
+*.deb
+*.buildinfo
+*.changes
+*.dsc
+*.tar.gz
+*.orig.tar.gz
+
+# Qt generated files
+*.autosave
+*.pro.user
+*.qmlc
+*.jsc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.moc
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

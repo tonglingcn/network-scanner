@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Network Scanner
+Name[zh_CN]=网络扫描器
+Comment=Scan local network for IP addresses
+Comment[zh_CN]=扫描局域网IP地址占用情况
+Exec=NetworkScanner
+Icon=network-scanner
+Terminal=false
+Type=Application
+Categories=Network;Utility;
+StartupNotify=true
